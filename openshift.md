@@ -49,6 +49,13 @@ quarkus.openshift.env.vars.inventory-mysql-db-username=dbuser
 quarkus.openshift.env.vars.inventory-mysql-db-password=password
 ```
 
+GK
+```
+quarkus.openshift.env.vars.elasticsearch-host=elasticsearch
+quarkus.openshift.env.vars.elasticsearch-port=9200
+quarkus.openshift.env.vars.inventory-host-name=inventory-ms-quarkus
+```
+
 - To trigger a build and deployment in a single step, run the below command.
 
 ```
